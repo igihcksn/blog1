@@ -1,0 +1,38 @@
+html{
+	scroll-behavior: smooth;
+}
+
+header{
+	background: url('../../../img/bg-header.jpg') no-repeat;
+	background-size: cover;
+	color: #fff;
+	min-height: 50vh;
+}
+
+.bg-transparent{
+	background: transparent;
+}
+
+.desc{
+	background-color: rgba(68, 22, 14, 0.4);
+}
+
+.about{
+	background-color: #fafafa;
+}
+
+.about img:hover{
+	opacity: 0.5;
+	transition: all ease-in-out .8s;
+}
+
+.paralax{
+	background: url('../../../img/bg-paralax.jpg');
+	min-height: 150px;
+	color: #fff;
+	font-size: 24px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

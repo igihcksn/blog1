@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="assets/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/dist/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/dist/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+	<script type="text/javascript" src="assets/dist/js/jquery-3.3.1.slim.min.js"></script>
+	<script type="text/javascript" src="assets/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/dist/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+	  <a class="navbar-brand" href="#"><i class="fab fa-adobe"></i></a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#product">Product</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="berita.html">Berita</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Dropdown
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="#">Action</a>
+	          <a class="dropdown-item" href="#">Another action</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="#">Something else here</a>
+	        </div>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<header class="container-fluid p-5">
+		<div class="row">
+			<div class="desc col-xl-6 col-xs-12 p-5 animated slideInLeft">
+				<h1>Landing Page</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="desc col-xl-6 col-xs-12 p-5 animated slideInRight">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div class="d-flex justify-content-center p-1">
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signIn">
+			  Sign In
+			</button>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signUp">
+			  Sign Up
+			</button>
+		</div>
+	</header>
+
+	<section class="fitur container-fluid p-5">
+		<div class="row">
+			<div class="col-xl-4 col-xs-12 p-5 text-justify">
+				<h3 class="text-center"><i class="fab fa-adobe"></i> Feature</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-xl-4 col-xs-12 p-5 text-justify ">
+				<h3 class="text-center"><i class="fab fa-adobe"></i> Feature</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div class="col-xl-4 col-xs-12 p-5 text-justify ">
+				<h3 class="text-center"><i class="fab fa-adobe"></i> Feature</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="about container-fluid p-5">
+		<div class="row">
+			<div class="col-xl-6 col-xs-12">
+				<img class="img-fluid" src="img/img-about.jpg">
+			</div>
+			<div class="col-xl-6 col-xs-12">
+				<h3>About</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button" class="btn btn-info btn-lg btn-block">Readmore</button>
+				<form>
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="inputEmail4">Email</label>
+				      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" disabled="true">
+				    </div>
+				    <div class="form-group col-md-6">
+				      <label for="inputPassword4">Password</label>
+				      <input type="password" class="form-control" id="inputPassword4" placeholder="Password" disabled="true">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <label for="inputAddress">Address</label>
+				    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+				  </div>
+				  <div class="form-group">
+				    <label for="inputAddress2">Address 2</label>
+				    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+				  </div>
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label for="inputCity">City</label>
+				      <input type="text" class="form-control" id="inputCity">
+				    </div>
+				    <div class="form-group col-md-4">
+				      <label for="inputState">State</label>
+				      <select id="inputState" class="form-control">
+				        <option selected>Choose...</option>
+				        <option>...</option>
+				      </select>
+				    </div>
+				    <div class="form-group col-md-2">
+				      <label for="inputZip">Zip</label>
+				      <input type="text" class="form-control" id="inputZip">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" id="gridCheck">
+				      <label class="form-check-label" for="gridCheck">
+				        Check me out
+				      </label>
+				    </div>
+				  </div>
+				  <button type="submit" class="btn btn-primary" id="btnEdit">Sign in</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section class="product container-fluid p-5" id="product">
+		<div class="row">
+			<div class="col animated slideInLeft wow">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/img-card.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col animated slideInLeft wow">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/img-card.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col animated slideInRight wow">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/img-card.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col animated slideInRight wow">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/img-card.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">Card title</h5>
+				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <a href="#" class="btn btn-primary">Go somewhere</a>
+				  </div>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<section class="paralax container-fluid p-5">
+		<div class="row">
+			<div class="col-sm-5 ml-auto">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<button type="button" class="btn btn-info btn-lg btn-block">Readmore</button>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid bg-dark p-3 text-center text-light">
+		<p>Copyright &copy; by IMKOM</p>
+	</footer>
+
+	<!-- Modal -->
+	<div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLabel">Modal Sign in</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+			    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group form-check">
+			    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+			    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+			  </div>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Sign In</button>
+	      </div>
+			</form>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="signUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <form>
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="inputEmail4">Email</label>
+			      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+			    </div>
+			    <div class="form-group col-md-6">
+			      <label for="inputPassword4">Password</label>
+			      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="inputAddress">Address</label>
+			    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+			  </div>
+			  <div class="form-group">
+			    <label for="inputAddress2">Address 2</label>
+			    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+			  </div>
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="inputCity">City</label>
+			      <input type="text" class="form-control" id="inputCity">
+			    </div>
+			    <div class="form-group col-md-4">
+			      <label for="inputState">State</label>
+			      <select id="inputState" class="form-control">
+			        <option selected>Choose...</option>
+			        <option>...</option>
+			      </select>
+			    </div>
+			    <div class="form-group col-md-2">
+			      <label for="inputZip">Zip</label>
+			      <input type="text" class="form-control" id="inputZip">
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <div class="form-check">
+			      <input class="form-check-input" type="checkbox" id="gridCheck">
+			      <label class="form-check-label" for="gridCheck">
+			        Check me out
+			      </label>
+			    </div>
+			  </div>
+			</form>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+	        <button type="button" class="btn btn-primary">Save changes</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<script type="text/javascript">
+		$('#inputEmail4').val('budi@gmail.com');
+		$('#inputPassword4').val('budi@');
+		$(window).scroll(function(){
+			let scroll = $(window).scrollTop();
+			if (scroll >= 300) {
+				$(".navbar").removeClass("bg-transparent").addClass("bg-dark");
+			}else{
+				$(".navbar").addClass("bg-transparent");
+			}
+
+		});
+
+		$('#btnEdit').click(function(){
+			$('input[disabled="true"]').removeAttr('disabled');
+		});
+	</script>
+</body>
+</html>
